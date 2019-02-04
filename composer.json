@@ -1,0 +1,30 @@
+{
+    "name": "it-for-free/php-mongodb",
+    "type": "library",
+    "description": "mongodb helpers",
+    
+    "keywords": ["php", "mongo", "mongodb", "mongo db",
+        "array of ids object id"
+    ],
+    
+    "homepage": "http://fkn.ktu10.com/?q=node/10559",
+    "license": "MIT",
+    
+    "require": {
+        "php": ">=5.3.0",
+        "php-mongodb": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ItForFree\\MongoDB\\": "src"
+        }    
+    },
+    
+    "repositories": [
+        {
+           "type": "vcs",
+           "url": "https://github.com/it-for-free/php-mongodb"
+        }
+    ]
+}
